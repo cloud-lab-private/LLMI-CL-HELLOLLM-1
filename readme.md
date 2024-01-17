@@ -12,5 +12,5 @@ to pass the lab.
 This lab leverages an external connection to the HuggingFace text generation interface. 
 It is possible that it may become inaccessible due to an invalid API key or the 
 service being unavailable. You can check this by running the sanity_test test case in the 
-labtest.py test class. The environment variables you should use for the connection should 
+test_lab.py test class. The environment variables you should use for the connection should 
 either be automatically configured for you upon opening the lab, or will be explicitly provided.
