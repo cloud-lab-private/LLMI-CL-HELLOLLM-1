@@ -6,6 +6,9 @@ also manually test your solution by running main/app.py.
 import os
 import unittest
 import requests
+import sys
+project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+sys.path.append(project_root)
 
 from src.main.lab import sample, lab
 
